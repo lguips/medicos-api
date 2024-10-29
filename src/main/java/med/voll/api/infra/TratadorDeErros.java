@@ -13,7 +13,7 @@ import java.util.List;
 public class TratadorDeErros {
 
     @ExceptionHandler(EntityNotFoundException.class)
-    public ResponseEntity tratarErro404() {
+    public ResponseEntity<?> tratarErro404() {
         return ResponseEntity.notFound().build();
     }
 
