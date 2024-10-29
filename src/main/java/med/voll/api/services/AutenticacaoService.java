@@ -7,6 +7,10 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+
+// A classe AutenticacaoService será chamada pelo AuthenticationManager.
+// classe do spring que está no controller de Autenticação.
+
 @Service
 public class AutenticacaoService implements UserDetailsService {
 
