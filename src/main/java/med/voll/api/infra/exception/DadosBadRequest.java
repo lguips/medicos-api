@@ -1,4 +1,4 @@
-package med.voll.api.dtos.error;
+package med.voll.api.infra.exception;
 
 import org.springframework.validation.FieldError;
 

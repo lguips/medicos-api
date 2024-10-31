@@ -1,7 +1,6 @@
 package med.voll.api.infra.exception;
 
 import jakarta.persistence.EntityNotFoundException;
-import med.voll.api.dtos.error.DadosBadRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
