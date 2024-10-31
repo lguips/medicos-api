@@ -31,6 +31,7 @@ public class SecurityConfigurations {
                     req.anyRequest().authenticated();
                 }).addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class)
                 .build();
+        // Muito importante adicionar o nosso filtro de segurança com o addFilterBefore, se não ele não será chamado.
     }
 
     @Bean
