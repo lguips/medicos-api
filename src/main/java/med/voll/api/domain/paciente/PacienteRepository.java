@@ -1,7 +1,6 @@
-package med.voll.api.repositories;
+package med.voll.api.domain.paciente;
 
 import jakarta.validation.constraints.NotNull;
-import med.voll.api.domain.paciente.Paciente;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
